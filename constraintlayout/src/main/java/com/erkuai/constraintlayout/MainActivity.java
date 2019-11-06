@@ -5,8 +5,11 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 
 import android.animation.ValueAnimator;
 import android.os.Bundle;
+import android.transition.TransitionManager;
 import android.view.View;
+import android.view.ViewAnimationUtils;
 import android.view.ViewGroup;
+import android.view.animation.AnimationUtils;
 import android.view.animation.LinearInterpolator;
 
 public class MainActivity extends AppCompatActivity {
@@ -63,6 +66,8 @@ public class MainActivity extends AppCompatActivity {
        // setContentView(R.layout.activity_gonemargin);
 //        setContentView(R.layout.activity_ratio);
         setContentView(R.layout.activity_guideline);
+
+       // TransitionManager.beginDelayedTransition();
 
     }
 }
